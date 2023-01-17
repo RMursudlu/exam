@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    width: 100%;
+    height: 82.09px;
+
+    // .nav__main
+
+    &__main {
+        margin: auto;
+        display: flex;
+        width: 60%;
+        column-gap: 660px;
+        padding: 26px;
+    }
+
+    // .nav__logo
+
+    &__logo {
+        
+        display: flex;
+        img{
+            height: 29px;
+        }
+    }
+
+    // .nav__navigation
+
+    &__navigation {
+
+    }
+
+    // .nav__list--container
+
+    &__list--container {
+        list-style: none;
+        display: flex;
+        
+        gap: 52px;
+
+    }
+
+    // .nav__list
+
+    &__list {
+        font-size: 16px;
+    }
+}
+.nav__list:hover{
+    border-bottom: 1px solid;
+    cursor: pointer;
+
+
+}
+
+
+.main {
+    height: 64px;
+    background-color: black;
+    text-align: center;
+
+    // .main__sale
+
+    &__sale {
+        color: aliceblue;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        width: 25%;
+        padding-top: 19px;
+        font-size: 16px;
+        p{
+          font-size: 19px; 
+        
+        }
+    }
+}
+.main {
+    
+
+    // .main__first
+
+    &__first {
+        display: flex;
+        background: #451314;
+    }
+}
+.first {
+    display: flex;
+    justify-content: center;
+    
+
+
+    // .first__page
+
+    &__page {
+        display: flex;
+        margin: auto;
+        width: 69%;
+        gap: 136px;
+    }
+
+    // .first__image
+
+    &__image {
+    }
+
+    // .first__list--container
+
+    &__list--container {
+        display: flex;
+        justify-content: center;
+    }
+
+    // .first__list
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+        justify-content: center;
+        
+    }
+
+    // .first__text
+
+    &__text {
+        color: white;
+        
+        h3{
+            
+            font-size: 48px;
+        }
+        p{
+            font-size: 16px;
+        }
+
+    }
+
+    // .first__button
+
+    &__button {
+        width: 109px;
+        height: 50px;
+    }
+}
+.main {
+
+    // .main__second
+
+    &__second {
+        display: flex;
+        height: 762px;
+        margin: auto;
+        width: 65%;
+        justify-content: center;
+        gap: 50px;
+    
+
+    }
+}
+
+
+
+.second {
+
+    // .second__text
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    // .second__list--container
+
+    &__list--container {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 54px;
+        
+    }
+
+    // .second__list
+
+    &__list {
+        text-decoration: none;
+        h3{
+            font-size: 40px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
+    // .second__button
+
+    &__button {
+        width: 109px;
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+
+    // .second__image
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 141px;
+    }
+}
+.image {
+
+    justify-content: center;
+    gap: 10px;
+    
+    // .image__first
+
+    &__first {
+        height: 512px;
+        width: 264px;
+    }
+
+    // .image__second
+
+    &__second {
+        
+        img{
+            height: 512px;
+            width: 264px;
+        }
+    }
+
+    // .image__third
+
+    &__third {
+        height: 512px;
+        width: 264px;
+    }
+}
+
+.main {
+    
+    // .main__third
+
+    &__third {
+        background-image: url(./image/background_1.webp);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 430px;
+    }
+}
+.third {
+    
+    
+
+    // .third__text
+
+    &__text {
+        background-color: transparent;
+        h3{
+            font-size: 48px;
+            text-align: center;
+            color: white;
+            padding-top: 169px;
+        }
+    }
+}
+
+
+
+.main {
+
+    // .main__four
+
+    &__four {
+    }
+    
+    button{
+        margin-top: 20px;
+    }
+}
+.four {
+
+    // .four__all
+
+    &__all {
+        margin: auto;
+        display: flex;
+        gap: 24px;
+        width: 65%;
+        margin-top: 102px;
+        height: 660px;
+    }
+
+    // .four__section
+
+    &__section {
+    }
+
+    // .four__image
+
+    &__image {
+        list-style: none;
+        p{
+            margin-top: 23px;
+            font-size: 20px;
+        }
+        h3{
+            font-size: 28px;
+            
+        }
+    }
+    
+}
+.four__button{
+    width: 109px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.main {
+    
+    // .main__five
+
+    &__five {
+        background-image: url(./image/background_2.webp);
+        background-color: transparent;
+        position: center;
+        color: white;
+    }
+}
+.five {
+    
+
+    // .five__all
+
+    &__all {
+        height: 560px;
+        width: 70%;
+        margin: auto;
+    }
+
+    // .five__list--container
+
+    &__list--container {
+        list-style: none;
+        padding-top: 127px;
+    }
+
+    // .five__header
+
+    &__header {
+        font-size: 40px;
+    }
+
+    // .five__text
+
+    &__text {
+        font-size: 64px;
+        width: 59%;
+        padding-bottom: 23px;
+    }
+
+    // .five__form
+
+    &__form {
+        width: 400px;
+        height: 35px;
+        margin-bottom: 29px;
+        
+    }
+
+    // .five__button
+
+    &__button {
+        width: 109px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        
+    }
+}
+
+
+.footer {
+    width: 100%;
+    height: 400px;
+
+    // .footer__all
+
+    &__all {
+        display: flex;
+        width: 85%;
+        margin: auto;
+        font-size: 22px;
+        gap: 113px;
+        display: flex;
+        justify-content: space-around;
+        padding: 37px;
+
+
+    }
+
+    // .footer__list
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 89px;
+        
+    }
+
+    // .footer__list-item
+
+    &__list-item {
+    }
+
+    // .footer__right
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        row-gap: 89px;
+    }
+
+    // .footer__right--list
+
+    &__right--list {
+        list-style: none;
+        
+        
+    }
+}
+.fa-brands {
+}
+.fa-twitter {
+}
+.fa-facebook {
+}
+.fa-instagram {
+}
+
+
+
+
+
+
